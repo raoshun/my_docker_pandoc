@@ -10,7 +10,7 @@ LABEL description="This is a Docker image for Pandoc, a universal document conve
 # 例: LaTeXを使用してPDFを生成する場合
 RUN apk add --no-cache \
     texlive-full \
-    fontconfig \
+    fontconfig 
 
 # 作業ディレクトリを設定
 WORKDIR /data
